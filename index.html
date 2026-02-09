@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags - Otimizado para público premium -->
+    <title>Floricultura Premium Vila Mariana SP | Arranjos Florais de Luxo e Paisagismo em Vasos</title>
+    <meta name="description" content="Floricultura de alto padrão na Vila Mariana especializada em arranjos florais exclusivos, orquídeas raras, paisagismo em vasos e consultorias personalizadas. Atendemos público premium que valoriza design e sofisticação.">
+    <meta name="keywords" content="floricultura premium vila mariana, arranjos florais luxo são paulo, orquídeas exclusivas, paisagismo em vasos, consultoria floral, flores de alto padrão, buquês sofisticados, plantas premium">
+    
+    <!-- Open Graph para compartilhamento em redes sociais -->
+    <meta property="og:title" content="Floricultura Premium Vila Mariana | Arranjos Florais de Luxo">
+    <meta property="og:description" content="Arranjos florais exclusivos, orquídeas raras e paisagismo em vasos. Design sofisticado para clientes que valorizam elegância e qualidade.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    
+    <!-- Schema.org Structured Data - Otimizado para IA e Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Florist",
+      "name": "Floricultura Premium Vila Mariana",
+      "description": "Floricultura de alto padrão especializada em arranjos florais exclusivos, orquídeas raras, paisagismo em vasos e consultorias personalizadas",
+      "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1200",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua José Antonio Coelho, 602",
+        "addressLocality": "Vila Mariana",
+        "addressRegion": "SP",
+        "postalCode": "04011-061",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-23.5937",
+        "longitude": "-46.6394"
+      },
+      "priceRange": "$$$",
+      "servesCuisine": "Floral Design",
+      "areaServed": {
+        "@type": "City",
+        "name": "São Paulo"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Produtos e Serviços Premium",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Arranjos Florais Exclusivos",
+              "description": "Composições florais únicas com flores selecionadas e design sofisticado"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Orquídeas Raras",
+              "description": "Orquídeas exclusivas importadas e nacionais de alta qualidade"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Paisagismo em Vasos",
+              "description": "Projetos personalizados de paisagismo em vasos para ambientes sofisticados"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Consultoria Floral",
+              "description": "Consultoria especializada em design floral e escolha de plantas"
+            }
+          }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "127"
+      }
+    }
+    </script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --sage-green: #8B9A7E;
+            --deep-green: #5A6B4C;
+            --cream: #F5F3EE;
+            --taupe: #C9B8A7;
+            --gold: #B8976C;
+            --charcoal: #3A3A3A;
+            --white: #FFFFFF;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--charcoal);
+            background-color: var(--cream);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+        }
+        
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 1.5rem 5%;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.05);
+        }
+        
+        .nav-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.8rem;
+            color: var(--deep-green);
+            font-weight: 500;
+            letter-spacing: 0.05em;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            align-items: center;
+        }
+        
+        .nav-links a {
+            color: var(--charcoal);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 400;
+            transition: color 0.3s;
+            letter-spacing: 0.05em;
+        }
+        
+        .nav-links a:hover {
+            color: var(--sage-green);
+        }
+        
+        .cta-btn {
+            background: var(--sage-green);
+            color: white !important;
+            padding: 0.8rem 2rem;
+            border-radius: 2px;
+            transition: all 0.3s;
+        }
+        
+        .cta-btn:hover {
+            background: var(--deep-green);
+            transform: translateY(-2px);
+        }
+        
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(rgba(90, 107, 76, 0.3), rgba(90, 107, 76, 0.3)), 
+                        url('https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1920&q=80') center/cover;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            padding: 2rem;
+            animation: fadeInUp 1s ease-out;
+        }
+        
+        .hero h1 {
+            font-size: 4.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 300;
+            line-height: 1.2;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2.5rem;
+            font-weight: 300;
+            letter-spacing: 0.05em;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+        
+        .btn-primary, .btn-secondary {
+            padding: 1rem 2.5rem;
+            text-decoration: none;
+            border-radius: 2px;
+            transition: all 0.3s;
+            font-weight: 400;
+            letter-spacing: 0.05em;
+            display: inline-block;
+        }
+        
+        .btn-primary {
+            background: var(--sage-green);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: var(--deep-green);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+        
+        .btn-secondary {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            border: 2px solid white;
+            backdrop-filter: blur(10px);
+        }
+        
+        .btn-secondary:hover {
+            background: white;
+            color: var(--deep-green);
+        }
+        
+        /* About Section */
+        .about {
+            padding: 8rem 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+        }
+        
+        .about-content h2 {
+            font-size: 3.5rem;
+            margin-bottom: 2rem;
+            color: var(--deep-green);
+        }
+        
+        .about-content p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            color: var(--charcoal);
+        }
+        
+        .about-image {
+            height: 600px;
+            background: url('https://images.unsplash.com/photo-1487070183336-b863922373d4?w=800&q=80') center/cover;
+            border-radius: 2px;
+            box-shadow: 20px 20px 0 var(--taupe);
+        }
+        
+        /* Products Section */
+        .products {
+            padding: 8rem 5%;
+            background: white;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+        
+        .section-title h2 {
+            font-size: 3.5rem;
+            color: var(--deep-green);
+            margin-bottom: 1rem;
+        }
+        
+        .section-title p {
+            font-size: 1.2rem;
+            color: var(--charcoal);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .products-grid {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 3rem;
+        }
+        
+        .product-card {
+            text-align: center;
+            padding: 2rem;
+            background: var(--cream);
+            border-radius: 2px;
+            transition: transform 0.3s;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .product-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 2rem;
+            background: var(--sage-green);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+        }
+        
+        .product-card h3 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--deep-green);
+        }
+        
+        .product-card p {
+            color: var(--charcoal);
+            line-height: 1.8;
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 8rem 5%;
+            background: var(--deep-green);
+            color: white;
+        }
+        
+        .services .section-title h2 {
+            color: white;
+        }
+        
+        .services .section-title p {
+            color: rgba(255,255,255,0.9);
+        }
+        
+        .services-grid {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 3rem;
+        }
+        
+        .service-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 3rem;
+            border-radius: 2px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .service-card h3 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .service-card p {
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+        
+        .service-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .service-card ul li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        
+        .service-card ul li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--taupe);
+        }
+        
+        /* Gallery Section */
+        .gallery {
+            padding: 8rem 5%;
+            background: white;
+        }
+        
+        .gallery-grid {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .gallery-item {
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 2px;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        
+        .gallery-item::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.3));
+        }
+        
+        /* Location Section */
+        .location {
+            padding: 8rem 5%;
+            background: var(--cream);
+        }
+        
+        .location-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+        }
+        
+        .location-info h2 {
+            font-size: 3.5rem;
+            margin-bottom: 2rem;
+            color: var(--deep-green);
+        }
+        
+        .location-details {
+            margin-bottom: 2rem;
+        }
+        
+        .location-details h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--sage-green);
+        }
+        
+        .location-details p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 0.5rem;
+        }
+        
+        .map-container {
+            height: 500px;
+            border-radius: 2px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        /* Contact Section */
+        .contact {
+            padding: 8rem 5%;
+            background: white;
+            text-align: center;
+        }
+        
+        .contact-buttons {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-top: 3rem;
+        }
+        
+        .whatsapp-btn {
+            background: #25D366;
+            color: white;
+            padding: 1.5rem 3rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 1rem;
+            transition: all 0.3s;
+        }
+        
+        .whatsapp-btn:hover {
+            background: #20BA5A;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(37, 211, 102, 0.3);
+        }
+        
+        .shop-btn {
+            background: var(--sage-green);
+            color: white;
+            padding: 1.5rem 3rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 1rem;
+            transition: all 0.3s;
+        }
+        
+        .shop-btn:hover {
+            background: var(--deep-green);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(90, 107, 76, 0.3);
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--charcoal);
+            color: white;
+            padding: 3rem 5%;
+            text-align: center;
+        }
+        
+        footer p {
+            margin-bottom: 1rem;
+        }
+        
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        
+        .footer-links a {
+            color: var(--taupe);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: white;
+        }
+        
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+            }
+            
+            .about-grid,
+            .location-content {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+            
+            .about-image {
+                height: 400px;
+            }
+            
+            .products-grid,
+            .services-grid,
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .section-title h2,
+            .about-content h2,
+            .location-info h2 {
+                font-size: 2.5rem;
+            }
+            
+            .contact-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        
+        /* Scroll animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-content">
+            <div class="logo">✿ Flora Premium</div>
+            <div class="nav-links">
+                <a href="#sobre">Sobre</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#localizacao">Localização</a>
+                <a href="#contato" class="cta-btn">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Elegância Natural em Cada Detalhe</h1>
+            <p>Arranjos florais exclusivos, orquídeas raras e paisagismo em vasos para ambientes sofisticados</p>
+            <div class="hero-buttons">
+                <a href="#produtos" class="btn-primary">Conheça Nossos Produtos</a>
+                <a href="#contato" class="btn-secondary">Fale Conosco</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="sobre">
+        <div class="about-grid">
+            <div class="about-content fade-in">
+                <h2>Design Floral de Alto Padrão</h2>
+                <p>Somos uma floricultura premium na Vila Mariana, especializada em criar experiências únicas através do design floral sofisticado.</p>
+                <p>Nosso trabalho é inspirado nas mais renomadas escolas de design floral do mundo, combinando técnicas contemporâneas com a beleza natural das flores e plantas.</p>
+                <p>Atendemos clientes que valorizam a excelência, o bom gosto e buscam soluções florais que reflitam seu estilo de vida refinado.</p>
+                <p><strong>Inspirações:</strong> McQueen's Flower School, Verbena Flores, Petersham Nurseries, The Nursery Singapore</p>
+            </div>
+            <div class="about-image fade-in"></div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="produtos">
+        <div class="section-title fade-in">
+            <h2>Nossos Produtos Exclusivos</h2>
+            <p>Seleção cuidadosa de flores e plantas para clientes exigentes</p>
+        </div>
+        <div class="products-grid">
+            <div class="product-card fade-in">
+                <div class="product-icon">🌸</div>
+                <h3>Arranjos Florais</h3>
+                <p>Composições únicas criadas com flores selecionadas de alta qualidade. Cada arranjo é uma obra de arte pensada exclusivamente para você.</p>
+            </div>
+            <div class="product-card fade-in">
+                <div class="product-icon">💐</div>
+                <h3>Buquês Sofisticados</h3>
+                <p>Buquês contemporâneos que equilibram elegância e naturalidade, perfeitos para presentes memoráveis e ocasiões especiais.</p>
+            </div>
+            <div class="product-card fade-in">
+                <div class="product-icon">🌺</div>
+                <h3>Orquídeas Raras</h3>
+                <p>Curadoria especial de orquídeas exclusivas, incluindo espécies raras e importadas para colecionadores e apreciadores.</p>
+            </div>
+            <div class="product-card fade-in">
+                <div class="product-icon">🪴</div>
+                <h3>Plantas em Vasos</h3>
+                <p>Plantas selecionadas em vasos de design exclusivo, ideais para decorar ambientes sofisticados com elegância natural.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="servicos">
+        <div class="section-title fade-in">
+            <h2>Serviços Personalizados</h2>
+            <p>Soluções sob medida para suas necessidades florais</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card fade-in">
+                <h3>Paisagismo em Vasos</h3>
+                <p>Projetos personalizados de paisagismo em vasos para transformar seus espaços:</p>
+                <ul>
+                    <li>Análise completa do ambiente</li>
+                    <li>Seleção de plantas adequadas ao espaço</li>
+                    <li>Design harmonioso e sofisticado</li>
+                    <li>Especificação de vasos exclusivos</li>
+                    <li>Orientações de manutenção</li>
+                </ul>
+            </div>
+            <div class="service-card fade-in">
+                <h3>Consultoria Floral</h3>
+                <p>Assessoria especializada em design floral e botânica:</p>
+                <ul>
+                    <li>Consultoria para eventos especiais</li>
+                    <li>Orientação sobre escolha de flores</li>
+                    <li>Planejamento de jardins privativos</li>
+                    <li>Curadoria de plantas para interiores</li>
+                    <li>Projetos corporativos premium</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="galeria">
+        <div class="section-title fade-in">
+            <h2>Portfolio</h2>
+            <p>Alguns dos nossos trabalhos exclusivos</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item fade-in" style="background-image: url('https://images.unsplash.com/photo-1562690868-60bbe7293e94?w=800&q=80')"></div>
+            <div class="gallery-item fade-in" style="background-image: url('https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=800&q=80')"></div>
+            <div class="gallery-item fade-in" style="background-image: url('https://images.unsplash.com/photo-1455659817273-f96807779a8a?w=800&q=80')"></div>
+            <div class="gallery-item fade-in" style="background-image: url('https://images.unsplash.com/photo-1509587584298-0f3b3a3a1797?w=800&q=80')"></div>
+            <div class="gallery-item fade-in" style="background-image: url('https://images.unsplash.com/photo-1496062031456-07b8f162a322?w=800&q=80')"></div>
+            <div class="gallery-item fade-in" style="background-image: url('https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&q=80')"></div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="localizacao">
+        <div class="location-content">
+            <div class="location-info fade-in">
+                <h2>Visite Nosso Espaço</h2>
+                <div class="location-details">
+                    <h3>📍 Endereço</h3>
+                    <p>Rua José Antonio Coelho, 602</p>
+                    <p>Vila Mariana - São Paulo, SP</p>
+                    <p>CEP: 04011-061</p>
+                </div>
+                <div class="location-details">
+                    <h3>⏰ Horário de Atendimento</h3>
+                    <p>Segunda a Sexta: 9h - 19h</p>
+                    <p>Sábado: 9h - 14h</p>
+                    <p>Atendimento com agendamento prévio</p>
+                </div>
+                <a href="https://www.google.com/maps/search/?api=1&query=Rua+José+Antonio+Coelho+602+Vila+Mariana+São+Paulo" target="_blank" class="btn-primary" style="display: inline-block; margin-top: 2rem;">Ver no Google Maps</a>
+            </div>
+            <div class="map-container fade-in">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.1755487765947!2d-46.64160878502167!3d-23.593712784664634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a3c7f8b8b4d%3A0x5e7b6d4c5c6c6c6c!2sRua%20Jos%C3%A9%20Antonio%20Coelho%2C%20602%20-%20Vila%20Mariana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004011-061!5e0!3m2!1sen!2sbr!4v1620000000000!5m2!1sen!2sbr" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contato">
+        <div class="section-title fade-in">
+            <h2>Entre em Contato</h2>
+            <p>Estamos prontos para criar algo extraordinário para você</p>
+        </div>
+        <div class="contact-buttons">
+            <a href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20arranjos%20florais%20premium." target="_blank" class="whatsapp-btn">
+                <span>💬</span> Fale no WhatsApp
+            </a>
+            <a href="https://sua-loja-shopify.com" target="_blank" class="shop-btn">
+                <span>🛍️</span> Visite Nossa Loja Online
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Flora Premium - Floricultura de Alto Padrão Vila Mariana</p>
+        <p>Rua José Antonio Coelho, 602 - Vila Mariana, São Paulo - SP | CEP: 04011-061</p>
+        <div class="footer-links">
+            <a href="#sobre">Sobre</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript for animations -->
+    <script>
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(element => {
+            observer.observe(element);
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
